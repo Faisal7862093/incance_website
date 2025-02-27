@@ -25,7 +25,7 @@ body{
     margin-right: 2px;
 }
 .phone_number h3{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
 }
 .email img{
@@ -36,7 +36,35 @@ body{
 
 .email h3{
     font-weight: normal;
+    font-size: 16px;
+}
+/* header section ended */
+
+/* hero section started */
+.hero_section{
+    background-color: #d1e3ff;
+    width: 100%;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.logo h4{
+    color: #0355cc;
+    font-size: 26px;
+}
+.navbar-nav a{
+    margin-left: 40px;
     font-size: 18px;
+    color: black;
+}
+.navbar-nav a:focus{
+    color: blue;
+}
+.navbar-nav a:hover{
+    color: blue;
 }
 
 /* Mobile responsiveness  */
