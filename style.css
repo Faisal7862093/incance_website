@@ -66,7 +66,43 @@ body{
 .navbar-nav a:hover{
     color: blue;
 }
-
+.main_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 60px;
+}
+.main_section .main_heading {
+    padding: 70px 30px;
+}
+.main_section .main_heading h1{
+    font-size: 45px;
+    color: #0355cc;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.main_section .main_heading p{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.main_section .main_heading button{
+    padding: 10px 50px;
+    background-color: #ff8a1d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+.main_section .main_heading button:hover{
+    background-color: white;
+    border: 1px solid #ff8a1d;
+    color: #ff8a1d;
+    border-radius: 5px;
+}
+.main_section .main_image img{
+    width: 100%;   
+}
 /* Mobile responsiveness  */
 @media (max-width: 576px) { 
     .header_contact{
@@ -96,5 +132,39 @@ body{
     .email h3{
         font-weight: normal;
         font-size: 18px;
+    }
+    .main_section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    .main_section .main_heading h1{
+        font-size: 45px;
+        color: #0355cc;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .main_section .main_heading p{
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .main_section .main_heading button{
+        padding: 10px 50px;
+        background-color: #ff8a1d;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+    }
+    .main_section .main_heading button:hover{
+        background-color: white;
+        border: 1px solid #ff8a1d;
+        color: #ff8a1d;
+        border-radius: 5px;
+    }
+    .main_section .main_image img{
+        width: 100%;   
     }
 }
