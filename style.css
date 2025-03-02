@@ -351,8 +351,7 @@ body{
      grid-gap: 20px;
  }
  .card_section .main_cards .card1{
-    width: 20rem;
-    margin-left: -3rem;
+    width: 15rem;
     background-color: white;
     padding: 40px 50px;
     text-align: center;
@@ -368,8 +367,8 @@ body{
      background-color: #ff8a1d;
  }
  .card_section .main_cards .card2{
-    width: 20rem;
-    margin-left: -3rem;
+    width: 15rem;
+    /* margin-left: -3rem; */
      background-color: white;
      padding: 40px 50px;
      text-align: center;
@@ -383,8 +382,8 @@ body{
      width: 40%;
  } 
  .card_section .main_cards .card3{
-    width: 20rem;
-    margin-left: -3rem;
+    width: 15rem;
+    /* margin-left: -3rem; */
      background-color: white;
      padding: 40px 50px;
      text-align: center;
@@ -399,6 +398,45 @@ body{
  .card_section .main_cards .card3:hover{
      background-color: #ff8a1d;
  }
+ /* about us section started */
+.aboutus_Section {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 40px;
+    padding: 15rem 4rem 10rem 2rem;
+}
+.aboutus_Section .about_heading{
+    margin-top: 45rem;
+}
+.aboutus_Section .about_heading h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+.aboutus_Section .about_heading p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.aboutus_Section .about_heading button{
+    padding: 10px 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight:500;
+}
+.aboutus_Section .about_heading button:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+.aboutus_Section .about_img img{
+    width: 20rem;
+}
+/* about section ended */
  /* home services section started */
 .home_services{
     display: grid;
@@ -440,7 +478,7 @@ body{
 /* home services section started */
 .home_services{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     align-items: center;
     background-color: #d1e3ff;
     padding: 90px 70px;
