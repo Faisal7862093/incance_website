@@ -352,6 +352,7 @@ body{
  }
  .card_section .main_cards .card1{
     width: 15rem;
+    margin-left: -1rem;
     background-color: white;
     padding: 40px 50px;
     text-align: center;
@@ -368,7 +369,7 @@ body{
  }
  .card_section .main_cards .card2{
     width: 15rem;
-    /* margin-left: -3rem; */
+    margin-left: -1rem;
      background-color: white;
      padding: 40px 50px;
      text-align: center;
@@ -383,7 +384,7 @@ body{
  } 
  .card_section .main_cards .card3{
     width: 15rem;
-    /* margin-left: -3rem; */
+    margin-left: -1rem;
      background-color: white;
      padding: 40px 50px;
      text-align: center;
